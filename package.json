@@ -1,0 +1,21 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node bot.js --scripts-prepend-node-path"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@braintree/sanitize-url": "^6.0.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
